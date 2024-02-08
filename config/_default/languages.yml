@@ -1,0 +1,7 @@
+################ Catalan language ##################
+
+ca:
+  languageName: Català
+  languageCode: ca
+  contentDir: content/catala
+  weight: 1

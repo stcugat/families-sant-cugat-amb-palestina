@@ -1,3 +1,4 @@
+---
 ######################## default configuration ####################
 # The base URL of your site (required). This will be prepended to all relative URLs.
 baseURL: /
@@ -11,11 +12,15 @@ timeZone: Europe/Madrid
 paginate: 2
 # post excerpt
 summaryLength: 10
-# disable language
-# example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
-disableLanguages: []
 #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
 hasCJKLanguage: false
+
+########################## Multilingual ##########################
+defaultContentLanguage: ca
+defaultContentLanguageInSubdir: true
+# disable language
+# example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
+disableLanguages: [en]
 
 ########################### Services #############################
 services:
