@@ -1,0 +1,146 @@
+######################## default configuration ####################
+# The base URL of your site (required). This will be prepended to all relative URLs.
+baseURL: /
+# Title of your website (required).
+title: Famílies de Sant Cugat amb Palestina
+# Your theme name
+theme: hugoplate
+# Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
+timeZone: Europe/Madrid
+# post pagination
+paginate: 2
+# post excerpt
+summaryLength: 10
+# disable language
+# example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
+disableLanguages: []
+#  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
+hasCJKLanguage: false
+
+########################### Services #############################
+services:
+  googleAnalytics:
+    ID: G-MEASUREMENT_ID # see https://gohugo.io/templates/internal/#configure-google-analytics
+  disqus:
+    shortname: themefisher-template # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
+
+########################## Permalinks ############################
+permalinks:
+  page:
+    pages: /:slugorfilename/
+
+############################# Modules ############################
+module:
+  mounts:
+    - source: assets
+      target: assets
+    - source: hugo_stats.json
+      target: assets/watching/hugo_stats.json
+
+############################# Build ##############################
+build:
+  noJSConfigInAssets: false
+  useResourceCacheWhen: fallback
+  buildStats:
+    enable: true
+  cachebusters:
+    - source: assets/watching/hugo_stats\.json
+      target: style\.css
+    - source: (postcss|tailwind)\.config\.js
+      target: css
+    - source: assets/.*\.(js|ts|jsx|tsx)
+      target: js
+    - source: assets/.*\.(css|scss|sass)
+      target: css
+    - source: data/.*\.(.*)$
+      target: css
+    - source: assets/.*\.(.*)$
+      target: $1
+
+############################# Outputs ############################
+outputs:
+  home:
+    - HTML
+    - RSS
+    - WebAppManifest
+    - SearchIndex
+
+# See https://github.com/disintegration/imaging
+# Default JPEG or WebP quality setting. Default is 75.
+imaging:
+  quality: 80
+  resampleFilter: Lanczos
+
+############################ Caches ##############################
+caches:
+  images:
+    dir: :resourceDir/_gen
+    maxAge: 720h
+  assets:
+    dir: :resourceDir/_gen
+    maxAge: 720h
+
+############################ Markup ##############################
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: monokai # see https://xyproto.github.io/splash/docs/all.html
+  tableOfContents:
+    startLevel: 2
+    endLevel: 5
+    ordered: true
+
+########################### Media types ###########################
+mediaTypes:
+  application/manifest+json:
+    suffixes:
+      - webmanifest
+
+########################### Output Format ##########################
+outputFormats:
+  WebAppManifest:
+    mediaType: application/manifest+json
+    rel: manifest
+  SearchIndex:
+    mediaType: application/json
+    baseName: searchindex
+    isPlainText: true
+    notAlternative: true
+
+############################# Plugins ##############################
+params:
+  plugins:
+    # CSS Plugins
+    css:
+      - link: plugins/swiper/swiper-bundle.css
+        lazy: true
+      - link: plugins/glightbox/glightbox.css
+        lazy: true
+      - link: plugins/font-awesome/v6/brands.css
+        lazy: true
+      - link: plugins/font-awesome/v6/solid.css
+        lazy: true
+      - link: plugins/font-awesome/v6/icons.css
+        lazy: true
+    # JS Plugins
+    js:
+      - link: js/search.js
+        lazy: false
+      - link: plugins/swiper/swiper-bundle.js
+        lazy: false
+      - link: plugins/cookie.js
+        lazy: false
+      - link: plugins/glightbox/glightbox.js
+        lazy: true
+      - link: js/gallery-slider.js
+        lazy: true
+      - link: js/accordion.js
+        lazy: true
+      - link: js/tab.js
+        lazy: true
+      - link: js/modal.js
+        lazy: true
+      - link: plugins/youtube-lite.js
+        lazy: true
