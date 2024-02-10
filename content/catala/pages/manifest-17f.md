@@ -1,6 +1,5 @@
 ---
 title: "Manifest 17F - Tornem a pintar el Guernica"
-slug: "manifest-17f"
 date: 2024-02-08T17:58:03+01:00
 draft: false
 ---

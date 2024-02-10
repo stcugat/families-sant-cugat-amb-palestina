@@ -58,11 +58,10 @@ search:
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 metadata:
   keywords:
-    - Boilerplate
-    - Hugo
-  description: Hugo & Tailwindcss Starter
-  author: zeon.studio
-  image: images/og-image.png
+    - Palestina
+    - Sant Cugat del Vallès
+  description: Sant Cugat amb Palestina - Aturem el genocidi contra el Poble Palestí
+  image: images/cartell-17-f-sant-cugat.jpg
 
 # site verifications
 # verification module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/site-verifications
