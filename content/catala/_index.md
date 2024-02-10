@@ -13,9 +13,9 @@ banner:
 
 # Features
 features:
-  - title: "Jornada solidaria amb Palestina al Casino de La Floresta"
+  - title: "Jornada solidaria amb Palestina a La Floresta"
     image: "/images/cartell-24-f-la-floresta.jpeg"
-    content: ""
+    content: "Jornada solidària amb Palestina - Dissabte 24 de febrer, de 12 a 21 h, al Casino de la Floresta"
     bulletpoints:
       - "Pallasos en Rebeldía & Sinfònica Per La Pau"
       - "Grup de Dabke de la comunitat Palestina"
