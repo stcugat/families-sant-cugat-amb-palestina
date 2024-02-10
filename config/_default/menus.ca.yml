@@ -5,9 +5,9 @@ main:
   - name: Inici
     url: ca
     weight: 1
-  - name: Qui som
-    url: ca/qui-som
-    weight: 2
+  # - name: Qui som
+  #   url: ca/qui-som
+  #   weight: 2
   - name: Blog
     url: ca/blog
     weight: 3
@@ -17,9 +17,9 @@ footer:
   - name: Inici
     url: ca
     weight: 1
-  - name: Qui som
-    url: ca/qui-som
-    weight: 2
+  # - name: Qui som
+  #   url: ca/qui-som
+  #   weight: 2
   - name: Blog
     url: ca/blog
     weight: 3

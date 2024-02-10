@@ -1,5 +1,5 @@
 ---
 
 navigation_button:
-  enable: true
+  enable: false
   label: Contacte
