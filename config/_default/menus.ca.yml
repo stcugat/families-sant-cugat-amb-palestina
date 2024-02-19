@@ -8,7 +8,10 @@ main:
   # - name: Qui som
   #   url: ca/qui-som
   #   weight: 2
-  - name: Blog
+  - name: Accions
+    url: ca/events
+    weight: 2
+  - name: Articles
     url: ca/blog
     weight: 3
 
@@ -20,6 +23,9 @@ footer:
   # - name: Qui som
   #   url: ca/qui-som
   #   weight: 2
-  - name: Blog
+  - name: Accions
+    url: ca/events
+    weight: 2
+  - name: Articles
     url: ca/blog
     weight: 3
