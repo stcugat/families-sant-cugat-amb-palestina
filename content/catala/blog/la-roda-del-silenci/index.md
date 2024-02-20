@@ -7,7 +7,7 @@ image: "images/Damage_in_Gaza_Strip_during_the_October_2023_-_14.jpg"
 categories: ["Sant Cugat"]
 author: "Jordi Panyella"
 tags: ["Censura"]
-draft: false
+draft: true
 ---
 
 Mai llegeixo els premis Planeta. Per principis. Sempre m’havia fet molta ràbia l’estratègia de màrqueting dels Lara: dies abans de la cerimònia ens apareixien amb algun comentari d’alta tensió política i ja està, ja havien captat una atenció dels mitjans de comunicació que els hi durava fins a l’acte de lliurament.
