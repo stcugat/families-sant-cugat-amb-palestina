@@ -7,7 +7,6 @@ tags: ["censura"]
 summary: "Recull d'imatges i vídeos de la concentració del dia 17 de febrer a
           la plaça Octavià de Sant Cugat del Vallès, en solidaritat amb el Poble
           Palestí i contra la censura e les escoles"
-toc: true
 ---
 
 ### Manifest
@@ -31,6 +30,3 @@ Ni un dia més. Cal aturar aquesta barbàrie! Des de Sant Cugat, diem PROU!
 {{< gallery dir="galeria" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
 
 ### Vídeos
-
-{{< video src="videos/17f/VID_20240217_113430.mp4" width="100%" height="auto" autoplay="false" loop="false" muted="false" controls="true" class="rounded-lg" >}}
-{{< video src="videos/17f/VID_20240217_132513.mp4" width="100%" height="auto" autoplay="false" loop="false" muted="false" controls="true" class="rounded-lg" >}}
