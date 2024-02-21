@@ -4,11 +4,17 @@ meta_title: "La roda del silenci"
 description: "this is meta description"
 date: 2022-04-04T05:00:00Z
 image: "images/Damage_in_Gaza_Strip_during_the_October_2023_-_14.jpg"
-categories: ["Sant Cugat"]
+image_title: "Edificis totalment destruïts a la ciutat de Gaza l’octubre del 2023 | Wikimedia Commons"
+categories: ["Escoles"]
 author: "Jordi Panyella"
-tags: ["Censura"]
-draft: true
+tags: ["Censura", "Sant Cugat"]
+draft: false
+summary: "El drama no és, només, que membres d’una comunitat educativa no entenguin que davant d’un genocidi,
+          convocar-se i demanar que s’aturi és un acte d’humanitat i, per tant, d’educació; el drama majúscul
+          és haver demanat a les persones que no ens manifestem, que no ens expressem."
 ---
+
+*(article originamlment publicat a [El Diari de l'Educació](https://diarieducacio.cat/la-roda-del-silenci/) el 4 de gener de 2024)*
 
 Mai llegeixo els premis Planeta. Per principis. Sempre m’havia fet molta ràbia l’estratègia de màrqueting dels Lara: dies abans de la cerimònia ens apareixien amb algun comentari d’alta tensió política i ja està, ja havien captat una atenció dels mitjans de comunicació que els hi durava fins a l’acte de lliurament.
 
