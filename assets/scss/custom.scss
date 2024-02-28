@@ -3,3 +3,11 @@
 header .order-0 {
   max-width: 60%;
 }
+
+blockquote {
+  border-left-width: 8px !important;
+
+  & > p {
+    font-size: 1.5rem !important;
+  }
+}

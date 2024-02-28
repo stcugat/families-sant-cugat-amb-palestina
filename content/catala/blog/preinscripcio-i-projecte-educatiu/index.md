@@ -1,8 +1,8 @@
 ---
-title: "Preinscripcio I projecte educatiu"
-meta_title: "Preinscripcio I projecte educatiu"
-description: "Article de Rocio Luna sobre els projectes educations de les escoles de Sant Cugat,
-              i com contrasten amb la realitat alhora de parlar d'Israel i Palestina"
+title: "Preinscripció i projecte educatiu"
+meta_title: "Preinscripció i projecte educatiu"
+description: "Article de Rocio Luna sobre els projectes educatius de les escoles de Sant Cugat,
+              i com contrasten amb la realitat a l'hora de parlar de Palestina"
 date: 2024-02-28T10:41:33+01:00
 image: "images/unwra_school_khan_yunis.webp"
 image_title: "Palestins fugint dels bombardejos d'Israeli es refugien en una escola de l'UNRWA a Khan Yunis, Gaza, el 14 d'octubre de 2023.
