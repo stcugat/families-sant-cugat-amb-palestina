@@ -1,7 +1,8 @@
 ---
 title: "La roda del silenci "
 meta_title: "La roda del silenci"
-description: "this is meta description"
+description: "Article de Jordi Panyella sobre la censura a l'escola quan es vol denuciar el genocidi
+              del Poble Palestí per part d'Israel"
 date: 2022-04-04T05:00:00Z
 image: "images/Damage_in_Gaza_Strip_during_the_October_2023_-_14.jpg"
 image_title: "Edificis totalment destruïts a la ciutat de Gaza l’octubre del 2023 | Wikimedia Commons"

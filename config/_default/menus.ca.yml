@@ -9,10 +9,10 @@ main:
   #   url: ca/qui-som
   #   weight: 2
   - name: Accions
-    url: ca/events
+    url: ca/accions
     weight: 2
   - name: Articles
-    url: ca/blog
+    url: ca/articles
     weight: 3
 
 # footer menu
@@ -24,8 +24,8 @@ footer:
   #   url: ca/qui-som
   #   weight: 2
   - name: Accions
-    url: ca/events
+    url: ca/accions
     weight: 2
   - name: Articles
-    url: ca/blog
+    url: ca/articles
     weight: 3

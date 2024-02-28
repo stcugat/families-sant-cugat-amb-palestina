@@ -9,7 +9,7 @@ banner:
   button:
     enable: true
     label: "Recull d'imatges"
-    link: "ca/events/imatges-17f/"
+    link: "ca/accions/imatges-17f/"
 
 # Features
 features:

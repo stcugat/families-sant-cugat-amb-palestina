@@ -31,6 +31,12 @@ services:
 
 ########################## Permalinks ############################
 permalinks:
+  page:
+    blog: /articles/:slugorfilename/
+    events: /accions/:slugorfilename/
+  section:
+    blog: /articles
+    events: /accions
 
 ############################# Modules ############################
 module:

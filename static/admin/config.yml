@@ -6,8 +6,8 @@ backend:
 media_folder: "static/images" # Folder where user uploaded files should go
 public_folder: "images"
 collections:
-  - name: "blog" # Used in routes, e.g., /admin/collections/post
-    label: "Entrades al blog" # Used in the UI
+  - name: "articles" # Used in routes, e.g., /admin/collections/post
+    label: "Articles" # Used in the UI
     folder: "content/catala/blog" # The path to the folder where the documents are stored
     path: "{{slug}}/index"
     media_folder: "" # Save images in the post's own folder instead of the static folder
