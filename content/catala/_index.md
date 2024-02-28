@@ -1,15 +1,15 @@
 ---
 # Banner
 banner:
-  title: "Tornem a pintar el Guernica!!"
+  title: "Hem tornat a pintar el Guernica!!"
   content: >
-    **Perquè hem d'aturar aquest genocidi, i perquè la solidaritat no se censura!**<br>
+    <strong class="text-lg">Perquè les escoles, ni es bombardegen ni es censuren!</strong><br>
     Dissabte 17 de febrer a les 12 h, la plaça Octavià de Sant Cugat
-  image: "/images/cartell-17-f-sant-cugat.jpg"
+  image: "/images/guernica.jpeg"
   button:
     enable: true
-    label: "Llegeix el manifest"
-    link: "ca/manifest-17f"
+    label: "Recull d'imatges"
+    link: "ca/events/imatges-17f/"
 
 # Features
 features:

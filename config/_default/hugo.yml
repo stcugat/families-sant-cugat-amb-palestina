@@ -31,10 +31,6 @@ services:
 
 ########################## Permalinks ############################
 permalinks:
-  page:
-    pages: /:slugorfilename/
-  section:
-    pages: /
 
 ############################# Modules ############################
 module:
