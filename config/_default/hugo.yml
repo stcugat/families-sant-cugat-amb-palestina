@@ -9,7 +9,8 @@ theme: hugoplate
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
 timeZone: Europe/Madrid
 # post pagination
-paginate: 6
+pagination:
+  pagerSize: 6
 # post excerpt
 summaryLength: 10
 #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
