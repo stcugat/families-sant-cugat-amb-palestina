@@ -1,5 +1,5 @@
 ---
 title: "Articles"
 meta_title: "Noticies i articles"
-description: "this is meta description"
+description: "Articles d'informació i d'opinió del col·lectiu Sant Cugat amb Palestina"
 ---
