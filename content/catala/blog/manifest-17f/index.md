@@ -6,6 +6,7 @@ description: "Manifest en solidaritat amb el Poble Palestí, i contra la censura
 date: 2024-02-17T05:00:00Z
 image: "images/guernica.jpeg"
 categories: ["Escoles"]
+author: "Famílies de Sant Cugat amb Palestina"
 tags: ["Censura", "Sant Cugat"]
 draft: false
 summary: "Les famílies de les escoles de Sant Cugat tornem a sortir al carrer per dir PROU
