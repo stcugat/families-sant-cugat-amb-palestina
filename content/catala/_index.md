@@ -1,11 +1,13 @@
 ---
 # Banner
 banner:
-  title: "Manifestació 4 de maig a St. Cugat"
+  title: "Manifestació 24 d'octubre a Sant Cugat"
   content: >
-    <strong class="text-lg">Palestina, no estàs sola! Aturem el genocidi</strong><br>
-    Dissabte 4 de maig a les 12 h, a la plaça de l'estació de Sant Cugat del Vallès
-  image: "/images/cartell_4_maig.jpeg"
+    <h3>1 any de <strong>genocidi</strong> a palestina<br>
+    76 de <strong>colonització</strong> israeliana</h3>
+    <h3>Solidaritat amb el Poble Palestí i el Poble Libanès<br>
+    Fora Sionisme de l'Ajuntament de Sant Cugat</h3>
+  image: "/images/cartell_24_octubre.jpeg"
   button:
     enable: false
     label: ""
